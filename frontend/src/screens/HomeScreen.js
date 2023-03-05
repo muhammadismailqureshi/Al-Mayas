@@ -2,7 +2,6 @@ import React from 'react'
 import Product from '../components/Product';
 import data from '../data';
 export default function HomeScreen() {
-  const a="yyeuie";
   return (
     <div>
         <div className="row center">
