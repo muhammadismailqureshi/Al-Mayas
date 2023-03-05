@@ -1,7 +1,6 @@
 import React from 'react'
-import Rating from './Rating';
+import Rating from '../components/Rating';
 export default function Product(props) {
-    console.log('hello world')
     const {product }= props;
     return (
         <div key={product._id} className="card">
